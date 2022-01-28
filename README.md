@@ -22,6 +22,8 @@ cls.fit(X_train, y_train)
 predictions = cls.predict(X_test)
 ```
 
+auto-sklearn can be accelerated with [sklearnex](https://automl.github.io/auto-sklearn/master/index.html#auto-sklearn-acceleration-with-sklearnex): extension that speedups scikit-learn algorithms.
+
 ## Relevant publications
 
 If you use auto-sklearn in scientific publications, we would appreciate citations.
